@@ -1,0 +1,14 @@
+{
+  "name": "msa",
+  "version": "1.0.0",
+  "description": "ashwin kalloe single-page-app",
+  "main": "/app/scripts/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ashwin kalloe",
+  "license": "ISC"
+}
