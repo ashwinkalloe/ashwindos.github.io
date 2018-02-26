@@ -79,6 +79,10 @@ app.config(function($routeProvider) {
             templateUrl: 'views/games-form.html',
             controller: 'GamesController'
         })
+        .when('/value', {
+            templateUrl: 'views/value.html',
+            controller: 'ValueController'
+        })
 
     .otherwise({ redirectTo: '#/home' });
 });

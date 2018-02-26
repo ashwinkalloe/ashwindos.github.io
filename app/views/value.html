@@ -1,0 +1,38 @@
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+
+        </div>
+        <div class="col-sm-8 text-left">
+            <h1>Welcome</h1>
+            <p>This page gives you an overwiew of games you can add, play and delete a game.</p>
+            <hr>
+            <h3>{{pageName}}</h3>
+
+            <p>
+                <div class="table-responsive">
+
+
+                    <table id="mytable" class="table table-bordred table-striped">
+
+                        <thead>
+                            <th>Value</th>
+                        </thead>
+                        <tbody>
+
+                            <tr ng-repeat="value in values">
+                                <td>{{value}}</td>
+                            </tr>
+
+
+
+
+
+                        </tbody>
+
+                    </table>
+                </div>
+
+        </div>
+    </div>
+</div>
